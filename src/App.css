@@ -40,3 +40,36 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Add styles for BookCard component */
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: left;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.book-card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.book-card h2 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+  color: #333; 
+}
+
+.book-card p {
+  margin: 0.25rem 0;
+  color: #555;
+}
